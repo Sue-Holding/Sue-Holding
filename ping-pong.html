@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <style>
+        body { text-align: center; }
+        canvas { background: black; display: block; margin: auto; }
+    </style>
+</head>
+<body>
+    <h1>Ping Pong Game</h1>
+    <canvas id="gameCanvas" width="400" height="200"></canvas>
+    <script>
+        const canvas = document.getElementById("gameCanvas");
+        const ctx = canvas.getContext("2d");
+
+        let paddleHeight = 40, paddleWidth = 5;
+        let playerY = (canvas.height - paddleHeight) / 2;
+        let aiY = (canvas.height - paddleHeight) / 2;
+        let ballX = canvas.width / 2, ballY = canvas.height / 2;
+        let ballSpeedX = 3, ballSpeedY = 2;
+        let ballColor = "white", paddleColor = "white";
+
+        function drawRect(x, y, width, height, color) {
+            ctx.fillStyle = color;
+            ctx.fillRect(x, y, width, height);
+        }
+
+        function drawBall(x, y, radius, color) {
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        function update() {
+            ballX += ballSpeedX;
+            ballY += ballSpeedY;
+
+            if (ballY <= 0 || ballY >= canvas.height) ballSpeedY = -ballSpeedY;
+
+            if (ballX <= paddleWidth && ballY > playerY && ballY < playerY + paddleHeight) {
+                ballSpeedX = -ballSpeedX;
+                changeColors();
+            }
+            if (ballX >= canvas.width - paddleWidth && ballY > aiY && ballY < aiY + paddleHeight) {
+                ballSpeedX = -ballSpeedX;
+                changeColors();
+            }
+
+            if (ballX < 0 || ballX > canvas.width) {
+                ballX = canvas.width / 2;
+                ballY = canvas.height / 2;
+                ballSpeedX = -ballSpeedX;
+            }
+
+            playerY += (ballY - (playerY + paddleHeight / 2)) * 0.1;
+            aiY += (ballY - (aiY + paddleHeight / 2)) * 0.1;
+        }
+
+        function changeColors() {
+            const colors = ["red", "blue", "green", "yellow", "pink", "purple", "orange", "cyan"];
+            ballColor = colors[Math.floor(Math.random() * colors.length)];
+            paddleColor = colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function draw() {
+            drawRect(0, 0, canvas.width, canvas.height, "black");
+            drawRect(0, playerY, paddleWidth, paddleHeight, paddleColor);
+            drawRect(canvas.width - paddleWidth, aiY, paddleWidth, paddleHeight, paddleColor);
+            drawBall(ballX, ballY, 5, ballColor);
+        }
+
+        function gameLoop() {
+            update();
+            draw();
+            requestAnimationFrame(gameLoop);
+        }
+
+        gameLoop();
+    </script>
+</body>
+</html>
