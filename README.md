@@ -5,8 +5,8 @@ I am currently looking for a LIA placement between **3rd November 2025 to 5th Ap
 
 In my free time after coding, I'm a mum of an almost 3-year-old, which keeps me on my toes and makes life extra fun 🥰
 
-![momtocat](https://github.com/user-attachments/assets/f2e733e8-ab2d-4d81-b640-bf2d54bbcc29)
 
+![momtocat400](https://github.com/user-attachments/assets/9eed4375-038b-4093-bbbd-47095b984cf8)
 
 ## 🛠️ Skills and Tools
 ### Languages and Frameworks
