@@ -29,9 +29,10 @@ In my free time after coding, I'm a mum of an almost 3-year-old, which keeps me 
 
 ## 🚀 Featured Projects
 👀 Check out some of my work:
-- **Project 1:** IMBD group project
+
+- **Project 1:** Angular Frontend linked to my Restful API 👉 'https://amazing-animals.netlify.app/'
 - **Project 2:** RESTful API - animal learning for toddlers
-- **Project 3:** 
+- **Project 3:** IMBD group project
 
 Feel free to explore my repositories and see what I'm working on! 🛠️
 
