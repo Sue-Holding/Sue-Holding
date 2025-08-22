@@ -1,9 +1,9 @@
 ## Hi there, my name's Sue!👋
 
 I'm a **Full Stack Open Source developer** in training at **Chas Academy** in Stockholm. 
-I am currently looking for a LIA placement between **3rd November 2025 to 5th April 2026** to focus putting my new skills into practice in the work place.
+I am currently looking for a LIA placement between **10th November 2025 to 26th April 2026** to focus putting my new skills into practice in the work place.
 
-In my free time after coding, I'm a mum of an almost 3-year-old, which keeps me on my toes and makes life extra fun 🥰
+In my free time after coding, I'm a mum of an energetic 3-year-old, which keeps me on my toes and makes life extra fun 🥰
 
 
 ![momtocat400](https://github.com/user-attachments/assets/9eed4375-038b-4093-bbbd-47095b984cf8)
@@ -30,9 +30,9 @@ In my free time after coding, I'm a mum of an almost 3-year-old, which keeps me 
 ## 🚀 Featured Projects
 👀 Check out some of my work:
 
-- **Project 1:** Angular Frontend linked to my Restful API 👉 'https://amazing-animals.netlify.app/'
-- **Project 2:** RESTful API - animal learning for toddlers
-- **Project 3:** IMBD group project
+- **Project 1:** MERN fullstack - ChefMate 👉 https://chef-mate.netlify.app
+- **Project 2:** Angular Frontend linked to my Restful API 👉 'https://amazing-animals.netlify.app/'
+- **Project 3:** RESTful API - animal learning for toddlers
 
 Feel free to explore my repositories and see what I'm working on! 🛠️
 
