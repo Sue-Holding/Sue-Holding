@@ -11,7 +11,7 @@ In my free time after coding, I'm a mum of an energetic 3-year-old, which keeps 
 ## 🛠️ Skills and Tools
 ### Languages and Frameworks
 - **Programming:** TypeScript, JavaScript, PHP
-- **Front-end Frameworks:** Angular, HTML, CSS, SASS, Tailwind
+- **Front-end Frameworks:** React, Angular, HTML, CSS, SASS, Tailwind
 - **Back-end Frameworks:** Node.js, Express.js, Laravel
 
 ### Database and Storage
