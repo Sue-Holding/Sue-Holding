@@ -30,9 +30,9 @@ In my free time after coding, I'm a mum of an energetic 3-year-old, which keeps 
 ## 🚀 Featured Projects
 👀 Check out some of my work:
 
-- **Project 1:** MERN fullstack - ChefMate 👉 https://chef-mate.netlify.app
-- **Project 2:** Angular Frontend linked to my Restful API 👉 'https://amazing-animals.netlify.app/'
-- **Project 3:** RESTful API - animal learning for toddlers
+- **Project 1:** Event Booker app - work in progress for my Advanced JavaScript exam project - https://github.com/Sue-Holding/Event_Booker
+- **Project 2:** MERN fullstack - ChefMate 👉 https://chef-mate.netlify.app
+- **Project 3:** Angular Frontend linked to my Restful API 👉 'https://amazing-animals.netlify.app/'
 
 Feel free to explore my repositories and see what I'm working on! 🛠️
 
