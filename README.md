@@ -46,8 +46,6 @@ I'm always open to networking and new opportunities. Feel free to reach out:
 
 Thanks for stopping by! 😃
 
- ![nyantocat](https://github.com/user-attachments/assets/5dfb4371-e1cd-432b-b490-d80de834c629)
-
 
 <!--
 **Sue-Holding/Sue-Holding** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
